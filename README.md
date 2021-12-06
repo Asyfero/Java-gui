@@ -1,2 +1,2 @@
 # Java-gui
-A Switch gui made in Java
+A Swing gui made in Java
