@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="darcula_sombre">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/darcula_sombre.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
