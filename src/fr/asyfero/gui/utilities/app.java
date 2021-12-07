@@ -1,5 +1,7 @@
 package fr.asyfero.gui.utilities;
 
+import com.formdev.flatlaf.IntelliJTheme;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -15,6 +17,13 @@ public class app extends JFrame implements ActionListener {
         frame = new JFrame("App");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
+
+        // Change the theme
+        try {
+            IntelliJTheme.setup(app.class.getResourceAsStream("/darcula_sombre.theme.json"));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         // Create Text Area
         t = new JTextArea();
