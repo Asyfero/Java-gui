@@ -14,9 +14,13 @@ public class app extends JFrame implements ActionListener {
 
     public void start() {
         // Create the gui/app
-        frame = new JFrame("App");
+        frame = new JFrame("Swinger");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(300, 300);
+
+        // Put Icon
+        ImageIcon img = new ImageIcon("C:\\Users\\hp\\IdeaProjects\\Gui\\icon\\icon.png");
+        frame.setIconImage(img.getImage());
 
         // Change the theme
         try {
